@@ -1,0 +1,95 @@
+html,body{margin:0;}
+
+h2{}
+ul,li{
+    margin:0;padding:0;list-style: none;
+}
+*{box-sizing:border-box}
+
+.w100{width:100%;}
+.btn{
+    background:#000 !important;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    padding:20px 50px !important;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.request{width:80%; margin:0 auto;}
+.request ul{}
+.request ul li{ 
+    border-top:1px solid #ddd;
+    padding:15px 0;
+}
+.request ul li input{
+    border:1px solid #aaa; padding:10px;
+    width:100%; background:#f3f3f3;
+}
+.request ul li textarea{
+    width:100%; height:400px;
+}
+
+
+/*work_list*/
+
+.work_list{
+    width:80%; margin:0 auto;
+}
+.work_list ul{}
+.work_list ul li{
+    border-top:1px solid #ddd;
+    padding:20px 0;
+    display:block;
+}
+
+.work_list ul li img,
+.work_list ul li code,
+.work_list ul li a{
+    display:inline-block;
+    vertical-align: middle;
+    margin:0 20px;
+    text-decoration: none;
+    font-size:20px;
+    color:#333;
+}
+.work_list ul li img{width:100px; height:80px;}
+
+.page{
+    border-top:1px solid #ddd;
+    text-align:center;
+    padding:30px 0;
+}
+.page a{
+    display:inline-block;
+    border:1px solid #ddd;
+    padding:5px 10px;
+    text-decoration: none;
+    color:#333;    
+}
+.page a.active{
+    color:#f00;
+    background:#eee;
+}
+
+/*contact*/
+.contents{
+    background:#eee;
+    padding:30px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
