@@ -5,7 +5,7 @@
     $subject = $_POST['subject'];
     $email = $_POST['email'];
     $contents = $_POST['contents'];
-    $date = date();
+    $date = date('y-m-d');
     
     $query = "insert into contact(
             name, subject, email, contents, date
